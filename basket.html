@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Deutsche Spezialitäten</title>
+        <link rel="icon" type="image/png" href="img/german-eagle.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+<body onload="fullPrice(), renderShopcard();">
+    <div class="basketContainer">
+    <section class="menu-and-pay">
+        <section>
+            <h3>BESTELLÜBERSICHT</h3>
+            <section id='pay_card' class="look-pay">
+            </section>
+            <section id='price_card' class="look-price">
+            </section>
+        </section>  
+    </section> 
+</div>
+    </div>
+    <div class="basketButtonContainerClose">
+        <button class="backButton" onclick="clearCart()">BESTELLEN</button>
+    </div>
+    <div class="basketButtonContainerClose">
+    <a href="index.html" class="backButton">ZURÜCK</a>
+    </div>
+</body>
+</html>

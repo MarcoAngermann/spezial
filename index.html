@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsche Spezialitäten</title>
+    <link rel="icon" type="image/png" href="img/german-eagle.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="renderCardmenu(), fullPrice()">
+    <section id="navbar">
+        <div>
+            <a href="./index.html"><img class="navbarLogo"
+                    src="./img/german-eagle.jpg" alt=""></a>
+        </div>
+        <nav class="nav">
+            <div class="navLinkContainer">
+                <a class="navLink" href="tel:+491235712411"> <img src="./img/phone-solid.svg" alt=""></a>
+                <a class="navLink" href="tel:+491235712411" class="phone-number">0123 / 5712411</a>
+            </div>
+        </nav>
+    </section>
+    <div class="headline"><h1>Deutsche Spezialitäten</h1></div>
+
+
+    <section class="menu-and-pay">
+        <section id='menu_card' class="look-menu"></section>
+        <section class="overview">
+            <h3>BESTELLÜBERSICHT</h3>
+            <section id='pay_card' class="look-pay">
+            </section>
+            <section id='price_card' class="look-price">
+            </section>
+            <div class="buyButtonContainer">
+                <button class="backButton" onclick="clearCart()">BESTELLEN</button>
+            </div> 
+        </section>
+    </section>
+    <div class="basketButtonContainer">
+        <a href="basket.html" class="basketButton">WARENKORB</a>
+        </div> 
+</body>
+
+</html>
